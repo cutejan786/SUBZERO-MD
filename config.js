@@ -7,10 +7,10 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~UXSxmY7kVx2O4fRStrXF",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~nmkEOtlyIiiZ72ePlZIb",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    BOT_NAME: process.env.BOT_NAME || "👿SHAHID KING👿",  // Bot's display name
+    MODE: process.env.MODE || "pravite",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
@@ -21,9 +21,9 @@ module.exports = {
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "true",              // Enable/disable auto-reply
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",// Reply to status updates?
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SUBZERO BOT VIEWED YOUR STATUS 🤖*",  // Status reply message
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
