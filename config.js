@@ -7,14 +7,14 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~mBkgsDxlPfwccjsDiKe7",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~RdH4yGo4tpZ1Bf5BM9zZ",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "👿SHAHID KING👿",  // Bot's display name
     MODE: process.env.MODE || "pravite",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923403747874",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923073224302",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || "Mr shahid",           // Owner's name
     DEV: process.env.DEV || "263719647303",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
